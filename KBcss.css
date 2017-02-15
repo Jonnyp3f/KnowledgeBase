@@ -1,0 +1,19 @@
+body{
+    background-color: #2B2E4A;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.jumbotron{
+    Color: #E84545;
+     font-weight: bold;
+    background-color: #2B2E4A;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+a{
+   font-family: 'Montserrat', sans-serif;
+    color: #E84545;
+}
