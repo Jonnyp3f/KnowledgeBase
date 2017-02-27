@@ -1,0 +1,195 @@
+{
+"category" : {	
+  "Language Agnostic " : [
+  		{
+  			"title" : "Language agnostic problems" , 
+  			"desc" : "A list of programming projects anyone can do with any language of their choice" , 
+  			"href" : "https://github.com/karan/Projects"
+  		},
+  		{
+  			"title" : "Become a Programmer Mother F***er" , 
+  			"desc" : "A foul mouthed site to find information on any programming language" , 
+  			"href" : "http://programming-motherfucker.com/become.html"
+  		}
+  ],
+  "JavaScript" : [
+  		{
+  			"title" : "eloquentjavascript.net" , 
+  			"desc" : "E-book that teaches you about JavaScript" , 
+  			"href" : "http://eloquentjavascript.net/"
+  		},
+  		{
+  			"title" : "W3schools" , 
+  			"desc" : "Very popular website to learn Javascript" , 
+  			"href" : "http://www.w3schools.com/"
+  		},
+  		{
+  			"title" : "you don't know JS" , 
+  			"desc" : "a repo containing various textbooks that dig deep into core javascript concepts " , 
+  			"href" : "https://github.com/getify/You-Dont-Know-JS"
+  		},
+  		{
+			"title" : "Front end Dev interview questions", 
+			"href" : "https://github.com/h5bp/Front-end-Developer-Interview-Questions", 
+			"desc" : "front end developer interview questions" 
+		}
+	],
+  	"C#" : [
+		{
+			"title" : "Microsoft Guide", 
+			"href" : "https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx", 
+			"desc" : "Microsoft's Official guide to C# programming" 
+		}
+	],
+	"Game Dev" : [
+		{
+			"title" : "Make a game", 
+			"href" : "http://www.brainycode.com/downloads/RetroGameProgramming_v_12.pdf", 
+			"desc" : "a great resource for those interesting in the history of retro games and building retro games" 
+		}
+	],
+	"Java" : [
+		{
+		"title" : "Android Developers", 
+		"href" : "https://developer.android.com/training/basics/firstapp/index.html", 
+		"desc" : "Beginners guide to android development " 
+		}
+	],
+	"Linux" : [
+		{
+		"title" : "linuxcommandline.org", 
+		"href" : "http://linuxcommand.org/index.php", 
+		"desc" : "Teaches how to use the terminal in Linux" 
+		},
+		{
+		"title" : "openvim", 
+		"href" : "http://www.openvim.com/", 
+		"desc" : "interactive vim tutorial" 
+		},
+		{
+		"title" : "LWN", 
+		"href" : "https://lwn.net/", 
+		"desc" : "Linux News Site" 
+		}
+	],
+	"Git" : [
+		{
+		"title" : "try.github.io", 
+		"href" : "https://try.github.io/levels/1/challenges/1", 
+		"desc" : "Git tutorial " 
+		},
+		{
+		"title" : "git-guide", 
+		"href" : "https://rogerdudler.github.io/git-guide/", 
+		"desc" : "Extremely simple and visual guide to Git" 
+		},
+		{
+		"title" : "git for beginners", 
+		"href" : "http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/", 
+		"desc" : "Github for beginners " 
+		}
+	],
+	"HTML & CSS" : [
+		{
+		"title" : "What the F*** HTML CSS", 
+		"href" : "http://wtfhtmlcss.com/", 
+		"desc" : "provides answers to common HTML and CSS problems " 
+		},
+		{
+		"title" : "W3schools", 
+		"href" : "http://www.w3schools.com/", 
+		"desc" : "Very popular website to learn Javascript " 
+		},
+		{
+		"title" : "Contrast Rebellion", 
+		"href" : "http://www.contrastrebellion.com/", 
+		"desc" : "website color and designing " 
+		}
+	],
+	"Comp Sci General" : [
+		{
+		"title" : "regexr.com", 
+		"href" : "http://regexr.com/", 
+		"desc" : "Solid suggestions for Sublime Text 3 plugins" 
+		},
+		{
+		"title" : "Essential Packages", 
+		"href" : "https://medium.com/@MariaSpr/sublime-text-3-essential-packages-2596133aead9#.1qb7pcp9r", 
+		"desc" : "A nice tool that you can use to build and test your regex expressions" 
+		},
+		{
+		"title" : "Awesome List", 
+		"href" : "https://github.com/sindresorhus/awesome", 
+		"desc" : "Literally a list of awesome projects, content from any almost any language (even PHP)" 
+		},
+		{
+		"title" : "Get the Job", 
+		"href" : "https://skillcrush.com/2015/04/09/land-junior-web-developer-job/", 
+		"desc" : "General info about steps take to become a junior web dev" 
+		},
+		{
+		"title" : "Concepts explained simplistically", 
+		"href" : "http://carlcheo.com/compsci", 
+		"desc" : "Random comp sci theories explained in ‘laymans’ terms" 
+		},
+		{
+		"title" : "Get some books for free", 
+		"href" : "https://www.reddit.com/r/trackers/comments/hrgmv/tracker_with_pdfsebooks_of_college_textbooks/c1xrq44/", 
+		"desc" : "Trackers for free textbooks/e-books " 
+		},
+		{
+		"title" : "Computer Science degree courses", 
+		"href" : "http://blog.agupieware.com/2014/06/online-learning-intensive-bachelors.html", 
+		"desc" : "an unoffical layout of online resources and online courses that would be an equivalent a computer science degree" 
+		},
+		{
+		"title" : "PHP API", 
+		"href" : "http://coreymaynard.com/blog/creating-a-restful-api-with-php/", 
+		"desc" : "creating a RESTful api with php" 
+		},
+		{
+		"title" : "free stuff for students", 
+		"href" : "https://education.github.com/pack", 
+		"desc" : "free software for students " 
+		},
+		{
+		"title" : "Tech Forum", 
+		"href" : "https://news.ycombinator.com/", 
+		"desc" : "online forum with a focus on technology" 
+		},
+		{
+		"title" : "Get the Job Website 2", 
+		"href" : "https://leetcode.com/", 
+		"desc" : "a website designed to help you practice coding questions for interviews" 
+		},
+		{
+		"title" : "Augment Reality", 
+		"href" : "http://www.perey.com/TexAR/getting-started-with-augmented-reality/", 
+		"desc" : "a general guide to getting started with AR" 
+		},
+		{
+		"title" : "Data Science", 
+		"href" : "https://www.kaggle.com/", 
+		"desc" : "a website for the data scientist enthusiast - contains competitions, free datasets, and more" 
+		},
+		{
+		"title" : "Competitive Programming", 
+		"href" : "http://codeforces.com/", 
+		"desc" : "for those interested in competitive programming - has problems to solve and hosts competitions regularly" 
+		},
+		{
+		"title" : "Algorithims Development", 
+		"href" : "http://algs4.cs.princeton.edu/home/", 
+		"desc" : "algorithms textbook (this link contains the code in the textbook: https://github.com/aistrate/AlgorithmsSedgewick)" 
+		},
+		{
+		"title" : "Language Popularity", 
+		"href" : "http://www.tiobe.com/tiobe-index/", 
+		"desc" : "can look at the popularity of languages monthly" 
+		}
+  		
+  	]
+}
+
+  
+}
