@@ -17,3 +17,24 @@ a{
    font-family: 'Montserrat', sans-serif;
     color: #E84545;
 }
+
+/*min-height and the margin-bottom + padding-bottom is a trick for forcing a div column to extend to bottom of page*/
+#holder{
+    min-height: 100%;
+}
+
+#content, #sidebar{
+    margin-bottom:-9999px;
+    padding-bottom: 9999px;
+}
+
+#sidebar{
+    background-color:black;
+}
+
+#sidebar ul:hover , #btnHome:hover{
+    color: red;
+}
+
+
+

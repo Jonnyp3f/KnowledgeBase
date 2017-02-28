@@ -1,20 +1,43 @@
 $(document).ready(function(){
 	//get JSON data from file
-	$.getJSON("compsciinfo.json" , parseJson);
+	$.getJSON("compsciinfo.json",function(json){
+		//populate the sidebar with category types
+		addSidebar(json);
+		//display relevant resources when sidebar heading is clicked
+		$("#sidebar").on('click', 'ul', function(){
+			loadResources(json, event);
+		});
+
+	});
+
+	$("#btnHome").click(gotoHome);
+	
+	
 });
 
 
-function parseJson(json){
+function addSidebar(json){
 	console.log("Successfully parsed JSON.");
-	//loop through each category to pass data to HTML page
+	//loop through json to add content types to sidebar
 	for	(var type in json.category){
-		$("#content").append("<h3>" + "Category: " + type + "</h3>");
+		$('#sidebar').append("<ul>" + type + "</h3>");
+	}
+
+}
+
+function loadResources(json, event){
+		console.log("loadResources");
+		type = $(event.target).text();
+		$("#resources").html("<h3>" + "Category: " + type + "</h3>");
 		for (var i = 0; i < json.category[type].length; i++){
 			var title = json.category[type][i].title;
 			var desc =  json.category[type][i].desc;
 
-			$("#content").append("<a href='" + desc + "' >" + title + "</a>" +
+			$("#resources").append("<a href='" + desc + "' >" + title + "</a>" +
 								 	"<p>-" + desc + "</p>");
 		}
-	}
+}
+
+function gotoHome(){
+	$("#resources").html("<p>Select a category for resources on a specific language.</p>");
 }
