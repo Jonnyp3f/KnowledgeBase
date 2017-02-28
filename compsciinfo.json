@@ -1,5 +1,6 @@
 {
-"category" : {	
+"category" : {
+
   "Language Agnostic " : [
   		{
   			"title" : "Language agnostic problems" , 
@@ -12,6 +13,7 @@
   			"href" : "http://programming-motherfucker.com/become.html"
   		}
   ],
+
   "JavaScript" : [
   		{
   			"title" : "eloquentjavascript.net" , 
