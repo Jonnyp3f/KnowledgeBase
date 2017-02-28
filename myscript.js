@@ -1,19 +1,16 @@
 $(document).ready(function(){
-	$.ajax({
-		type: "GET",
-		url: "compsciinfo.json",
-		dataType: "json",
-		success: parseJson,
-		failure: failure
-	});
-
+	// $.ajax({
+	// 	type: "POST",
+	// 	url: "compsciinfo.json",
+	// 	dataType: "json",
+	// 	success: parseJson,
+	// });
+	$.getJSON("compsciinfo.json" , parseJson);
 });
 
-function failure(){
-	console.log("Failed to parse json.");
-}
 
 function parseJson(json){
-	console.log("successfully parsed json");
-	console.log(json);
+	console.log("Successfully parsed JSON.");
+	$("#content").append(json.category);
+	
 }
